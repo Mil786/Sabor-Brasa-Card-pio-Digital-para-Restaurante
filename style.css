@@ -1,6 +1,4 @@
-/* ==========================================================
-   Sabor & Brasa — Design tokens
-   ========================================================== */
+/*Sabor & Brasa — Design tokens*/
 :root{
   --charcoal-950:#150F0B;
   --charcoal-900:#1B140F;
@@ -28,9 +26,7 @@
   --shadow-soft:0 18px 40px -20px rgba(0,0,0,.55);
 }
 
-/* ==========================================================
-   Reset / Base
-   ========================================================== */
+/*Base*/
 *,*::before,*::after{
   box-sizing:border-box;
 }
@@ -139,9 +135,7 @@ p:last-child{
   border-radius:2px;
 }
 
-/* ==========================================================
-   Header
-   ========================================================== */
+/*Header*/
 .site-header{
   position:sticky;
   top:0;
@@ -232,9 +226,7 @@ p:last-child{
   gap:14px;
 }
 
-/* ==========================================================
-   Botões
-   ========================================================== */
+/*Botões*/
 .btn{
   --btn-fg:#FBF3E7;
   display:inline-flex;
@@ -330,9 +322,7 @@ p:last-child{
   font-size:0.86rem;
 }
 
-/* ==========================================================
-   Menu mobile
-   ========================================================== */
+/*Menu mobile*/
 .nav-toggle{
   display:none;
   flex-direction:column;
@@ -373,9 +363,7 @@ p:last-child{
   transform:translateY(-7px) rotate(-45deg);
 }
 
-/* ==========================================================
-   Hero
-   ========================================================== */
+/*Hero*/
 .hero{
   position:relative;
   overflow:hidden;
@@ -491,9 +479,7 @@ p:last-child{
   background:linear-gradient(180deg, transparent, var(--charcoal-950));
 }
 
-/* ==========================================================
-   Seções
-   ========================================================== */
+/*Seções*/
 section{
   padding-block:110px;
 }
@@ -518,9 +504,7 @@ section{
   margin-inline:auto;
 }
 
-/* ==========================================================
-   Sobre
-   ========================================================== */
+/*Sobre*/
 .about{
   background:var(--charcoal-900);
 }
@@ -589,9 +573,7 @@ section{
   transform:scale(1.04);
 }
 
-/* ==========================================================
-   Cardápio
-   ========================================================== */
+/*Cardápio*/
 .menu{
   background:var(--charcoal-950);
 }
@@ -645,9 +627,7 @@ section{
   transform:scale(.97);
 }
 
-/* ==========================================================
-   Cards dos pratos
-   ========================================================== */
+/*Cards dos pratos*/
 .menu-list{
   display:grid;
   grid-template-columns:repeat(2,1fr);
@@ -689,9 +669,7 @@ section{
   background:linear-gradient(160deg, rgba(196,64,28,.14), var(--charcoal-900) 60%);
 }
 
-/* ==========================================================
-   Imagens dos pratos
-   ========================================================== */
+/*Imagens dos pratos*/
 .dish-visual{
   flex-shrink:0;
   width:110px;
@@ -765,9 +743,7 @@ section{
   opacity:.75;
 }
 
-/* ==========================================================
-   Visita / Informações
-   ========================================================== */
+/*Visita / Informações*/
 .visit{
   background:var(--charcoal-900);
 }
@@ -806,9 +782,7 @@ section{
   color:var(--ember-400);
 }
 
-/* ==========================================================
-   Mapa — Google Maps real
-   ========================================================== */
+/*Google Maps*/
 .visit-map{
   width:100%;
   display:flex;
@@ -861,9 +835,7 @@ section{
   gap:11px;
 }
 
-/* ==========================================================
-   Footer
-   ========================================================== */
+/*Footer*/
 .site-footer{
   background:var(--charcoal-950);
   padding-top:80px;
@@ -922,16 +894,12 @@ section{
   color:var(--parchment-muted);
 }
 
-/* ==========================================================
-   Botão flutuante do menu mobile (dentro do drawer)
-   ========================================================== */
+/*Botão flutuante do menu mobile (dentro do drawer)*/
 .mobile-nav-cta{
   display:none;
 }
 
-/* ==========================================================
-   Responsivo — Tablet
-   ========================================================== */
+/*Responsivo — Tablet*/
 @media (max-width:900px){
 
   .about-grid,
@@ -962,9 +930,7 @@ section{
   }
 }
 
-/* ==========================================================
-   Responsivo — Mobile
-   ========================================================== */
+/*Responsivo — Mobile*/
 @media (max-width:760px){
 
   .site-header{
@@ -1148,9 +1114,7 @@ section{
   }
 }
 
-/* ==========================================================
-   Responsivo — telas muito pequenas
-   ========================================================== */
+/*Responsivo — telas muito pequenas*/
 @media (max-width:480px){
 
   .container{
