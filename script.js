@@ -1,11 +1,9 @@
 (function () {
   "use strict";
 
-  /* ============================================================
-     DADOS DE CONTATO
-     ============================================================ */
+  /*DADOS DE CONTATO*/
 
-  // Número fictício apenas para demonstração — troque pelo número real
+  // Número Whatsapp
   const WHATSAPP_NUMBER = "5500000000000";
 
   const WHATSAPP_MESSAGE =
@@ -31,9 +29,7 @@
     }
   });
 
-  /* ============================================================
-     ANO AUTOMÁTICO NO RODAPÉ
-     ============================================================ */
+  /*ANO AUTOMÁTICO NO RODAPÉ*/
 
   const yearEl = document.getElementById("year");
 
@@ -41,9 +37,7 @@
     yearEl.textContent = new Date().getFullYear();
   }
 
-  /* ============================================================
-     NAVEGAÇÃO MOBILE
-     ============================================================ */
+  /*NAVEGAÇÃO MOBILE*/
 
   const navToggle = document.getElementById("navToggle");
   const mainNav = document.getElementById("mainNav");
@@ -71,7 +65,6 @@
       });
     });
 
-    // Fecha o menu com a tecla Esc
     document.addEventListener("keydown", function (event) {
       if (event.key === "Escape" && mainNav.classList.contains("is-open")) {
         mainNav.classList.remove("is-open");
@@ -83,9 +76,7 @@
     });
   }
 
-  /* ============================================================
-     FILTRO DE CATEGORIAS DO CARDÁPIO
-     ============================================================ */
+  /*FILTRO DE CATEGORIAS DO CARDÁPIO*/
 
   const tabButtons = document.querySelectorAll(".tab-btn");
   const dishCards = document.querySelectorAll(".dish-card");
@@ -99,7 +90,6 @@
       if (match) {
         card.classList.remove("is-visible");
 
-        // Pequeno atraso para a animação rodar de novo ao trocar de aba
         requestAnimationFrame(function () {
           card.classList.add("is-visible");
         });
@@ -127,9 +117,7 @@
     });
   }
 
-  /* ============================================================
-     REVELAÇÃO SUAVE DOS CARDS
-     ============================================================ */
+  /*REVELAÇÃO SUAVE DOS CARDS*/
 
   let cardObserver = null;
 
@@ -155,9 +143,7 @@
     });
   }
 
-  /* ============================================================
-     SOMBRA DO HEADER AO ROLAR
-     ============================================================ */
+  /*SOMBRA DO HEADER AO ROLAR*/
 
   const header = document.querySelector(".site-header");
 
@@ -170,9 +156,7 @@
     updateHeaderShadow();
   }
 
-  /* ============================================================
-     PARTÍCULAS DE BRASA NO HERO
-     ============================================================ */
+  /*PARTÍCULAS DE BRASA NO HERO */
 
   const canvas = document.getElementById("emberCanvas");
 
