@@ -6,7 +6,7 @@ Este projeto faz parte do meu **portfólio de desenvolvimento web**, demonstrand
 
 ## 🌐 Demonstração
 
-🔗 **Acesse o site:**  
+🔗 **Acesse o site:**  https://mil786.github.io/Sabor-Brasa-Card-pio-Digital-para-Restaurante/
 
 ---
 
